@@ -11,7 +11,7 @@ body {
 
 .card {
     height: 100vh;
-    width:  35%;
+    width: 35%;
     margin: 0% auto;
     background-image: url(/img/back-ground-img.jpg);
     background-size: cover;
@@ -30,7 +30,7 @@ body {
     position: absolute;
     left: 1px;
     top: 0;
-   
+
 }
 
 .lantern {
@@ -82,6 +82,7 @@ body {
     0% {
         transform: translateY(0);
     }
+
     100% {
         transform: translateY(-5px);
     }
@@ -91,7 +92,7 @@ body {
     position: absolute;
     top: 18rem;
     text-align: center;
-   padding-inline: 2rem;
+    padding-inline: 2rem;
 
 }
 
@@ -111,35 +112,40 @@ body {
 
 
 @media screen and (max-width : 700px) {
-    .card{
+    .card {
         width: 90%;
     }
+
     .lantern {
         max-width: 450px;
     }
+
     /* .kids {
         height: 200px;
         right: -100px;
     } */
-   
+
 }
+
 @media screen and (max-width : 500px) {
     .text {
         top: 12rem;
-     
+
     }
+
     @keyframes cycleMove {
         0% {
             right: -250;
         }
-    
+
         100% {
             right: 85px;
         }
     }
+
     .heading {
         font-size: 35px;
-      
+
     }
-    
+
 }
